@@ -1,0 +1,44 @@
+body{
+    background-color: #ffbf00;
+    max-width: 500px;
+    margin: auto;
+}
+
+td, th{
+    vertical-align: 0;
+}
+
+.offset{
+    padding-left: 50px;
+}
+
+table, input{
+    width: 100%;
+}
+
+.change-devoured{
+    border-radius: 8px;
+    color: red;
+    background-color: white;
+    border: 1px solid red;
+     -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.change-devoured:hover {
+    background-color: red; /* Green */
+    color: white;
+}
+
+.submit{
+    font-size: 16px;
+    padding: 10px;
+    color: white;
+    margin-top: 15px;
+    border: 0px;
+    background-color: black;
+}
+
+div{
+    text-align: center;
+}
