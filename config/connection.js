@@ -3,11 +3,10 @@ console.log("Connection.js is loaded");
 var mysql = require("mysql");
 
 var connection = mysql.createConnection({
-    port: 3306,
-    host: "localhost",
-    user: "root",
-    password: "dor3mon1",
-    database: "burgers_db"
+    host: "us-cdbr-iron-east-05.cleardb.net",
+    user: "b66815ce637d56",
+    password: "f1539b95",
+    database: "heroku_29543ed04cd0575"
 });
 
 // Make connection.
